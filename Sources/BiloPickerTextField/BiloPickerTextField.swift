@@ -15,8 +15,8 @@ open class BiloPickerTextField: UITextField {
     open var toolbar = BiloPickerToolbar()
     private var selectedIndex: Int = 0
     
-    var didChangeIndex: DataBlock<Int>?
-    var onTapRight: DataBlock<Int>?
+    open var didChangeIndex: DataBlock<Int>?
+    open var onTapRight: DataBlock<Int>?
     
     
     open var textFieldBackgroundColor: UIColor = .white {

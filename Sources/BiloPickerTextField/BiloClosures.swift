@@ -7,5 +7,5 @@
 
 import Foundation
 
-typealias DataBlock<T> = (T) -> Void
-typealias EmptyBlock = () -> Void
+public typealias DataBlock<T> = (T) -> Void
+public typealias EmptyBlock = () -> Void
